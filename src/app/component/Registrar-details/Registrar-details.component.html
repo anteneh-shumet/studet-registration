@@ -1,0 +1,12 @@
+<p-panel>
+  <p-header>
+    Registrar
+  </p-header>
+  <div class="p-d-flex" *ngIf="Registrar">
+    <div class="p-m-4">Registrar Name: {{Registrar.name}}</div>
+    <div class="p-m-4">Capital: {{Registrar.course}}</div>
+  </div>
+  <p-footer>
+    <a [routerLink]="goBackUrl">Go back</a>
+  </p-footer>
+</p-panel>
